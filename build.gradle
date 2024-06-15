@@ -34,6 +34,8 @@ dependencies {
 	implementation platform('software.amazon.awssdk:bom:2.26.3')
 	implementation 'software.amazon.awssdk:bedrockruntime'
 
+	implementation 'org.json:json:20240303'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
